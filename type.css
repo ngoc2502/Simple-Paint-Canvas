@@ -1,0 +1,58 @@
+.colorButtons {
+    display: block;
+    margin: 20px 0;
+}
+
+canvas {
+    cursor: crosshair;
+}
+
+div#sidebar {
+    position: absolute;
+    left: 10;
+    width: 150px;
+    padding: 20px 20px;
+    top: 0;
+}
+
+canvas#canvas {
+    left: 200px;
+    top: 45px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-bottom: 20px;
+    background-color:darkblue;
+    border: 10px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height:40px;
+
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.toolsButtons .btn {
+    width: 48%;
+}
+
+.sizeButtons .btn {
+    width: 48%;
+}
+
+.colorpicker {
+    background: transparent;
+    height: 40px;
+}
